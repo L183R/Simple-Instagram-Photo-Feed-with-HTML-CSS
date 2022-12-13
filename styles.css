@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Handlee&family=Roboto:wght@100&display=swap');
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.título {
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.todaslasfotos {
+    width:100vw;
+    height: auto;
+}
+
+.marcodefoto {
+    width: 420px;
+    height: auto;
+    margin:auto;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.marcodefoto:first-child {
+    margin-top: 170px
+}
+
+.cabeceradefoto {
+    width: 420px;
+    height: 40px;
+    display: flex;
+}
+
+.títulodefoto {
+    margin: 10px 0px 0px 10px;
+    width: 380px;
+    justify-content: left;
+    font-weight: bold;
+    color: black;
+}
+
+.númerodefoto {
+    margin: 10px 10px 0px 0px;
+    color: grey;
+}
+
+.cuerpodefoto {
+    width: 420px;
+    height: 420px;
+}
+
+.piedefoto {
+    width: 420px;
+    height: 120 px;
+}
+
+img {
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+img:hover {
+    object-fit: contain;
+}
+
+
+.piedefoto {
+    width: 90%;
+    padding: 5px 5% 10px 5%;
+    text-align: left;
+    color: black;
+}
+
